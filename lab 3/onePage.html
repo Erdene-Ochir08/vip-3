@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="logo"><h3>Append.</h3></div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="menu">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="btn">
+              <a href="">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="home" id="home">
+      <div class="container">
+        <!-- list unordered/ ordered -->
+        <!-- attribute  -->
+        <!-- 1,A,a,I,i -->
+        <ol type="I">
+          <li>Coffee</li>
+          <li>Milk</li>
+          <li>Tea</li>
+        </ol>
+        <!-- circle, square, none -->
+        <ul style="list-style-type: disc">
+          <li>Coffee</li>
+          <li>Milk</li>
+          <li>
+            Tea
+            <ol>
+              <li>black tea</li>
+              <li>green tea</li>
+            </ol>
+          </li>
+        </ul>
+        <!-- table : husnegt -->
+        <!-- tr : table row  -->
+        <!-- td : table data -->
+        <!-- th : table head -->
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Ochir</td>
+            <td>23</td>
+          </tr>
+        </table>
+
+        <table>
+          <!-- rowspan colspan -->
+          <tr>
+            <th colspan="2">First Name</th>
+            <!-- <th>Last Name</th> -->
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Bat</td>
+            <td>Bold</td>
+            <td rowspan="2">30</td>
+          </tr>
+          <tr>
+            <td>Suvd</td>
+            <td>Uyanga</td>
+            <!-- <td>30</td> -->
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box" data-aos="fade-up" data-aos-duration="3000"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service" id="service">
+      <video src="" autoplay muted></video>
+    </section>
+    <section class="team" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="scroll">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                non commodi laborum? Animi maiores adipisci ullam cum dolore
+                laborum? Laborum repellat libero nesciunt ex neque quas sint
+                dolorum voluptatem cumque?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                non commodi laborum? Animi maiores adipisci ullam cum dolore
+                laborum? Laborum repellat libero nesciunt ex neque quas sint
+                dolorum voluptatem cumque?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                non commodi laborum? Animi maiores adipisci ullam cum dolore
+                laborum? Laborum repellat libero nesciunt ex neque quas sint
+                dolorum voluptatem cumque?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news" id="news"></section>
+    <section class="contact" id="contact"></section>
+
+    <section class="footer"></section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    /* transform: rotate(-30deg);
+    transform: skew(30deg);
+    background-color: green;
+    transform: scale(0.5,3);
+    transform: scaleX(2);
+    transform: translate(-150px,-50px); */
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-property: all;
+    transition: all 0.5s ease-in;
+}
+/* transform */
+.box:hover{
+    /* width: 300px; */
+    transform: rotate(360deg);
+}
+.card{
+    width: 250px;
+    height: 400px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card p{
+    position: absolute;
+    bottom: 0;
+    /* right: 0; */
+}
+.card:hover p{
+    bottom: 20px;
+}
+
+i{
+    color: red;
+    font-size: 30px;
+}

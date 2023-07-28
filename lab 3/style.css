@@ -1,0 +1,97 @@
+
+.box, .box2, .box3, .box4, .box5{
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid #000; */
+    margin-bottom: 10px;
+}
+/* position : bairlal static/relative/absolute/fixed/sticky */
+.box{
+    position: static;
+    left: 100px;
+}
+.box2{
+    position: relative;
+    left: 300px;
+    top: 200px;
+    /* left right top bottom */
+}
+.box3{
+    position: absolute;
+    right: 500px;
+    bottom: 0;
+}
+.box4{
+    position: fixed;
+    top: 500px;
+}
+.box5{
+    position: sticky;
+    top: 100px;
+}
+.header{
+    top: 0;
+    padding: 20px 0;
+    position: sticky;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+.header .menu ul{
+    list-style-type: none;
+}
+.header .menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header .menu ul li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+}
+.header .menu{
+    text-align: center;
+}
+.about, .service, .team, .contact, .news, #home{
+    height: 100vh;
+}
+.about{
+    background-color: bisque;
+}
+.service{
+    background-image: url('https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team{
+    background-color: brown;
+}
+.team .scroll{
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 15px;
+}
+.contact{
+    background-color: cadetblue;
+}
+.news{
+    background-color: chocolate;
+}
+#home{
+    background-color: cornflowerblue;
+}
+
+table, tr, td, th{
+    border: 1px solid #000 !important;
+}
+td{
+    padding: 20px;
+}
+.about .box{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    margin-top: 50px;
+}
